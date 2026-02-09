@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>GrandRP Outils</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<style>
+    html, body {
+        min-height: 100%;
+    }
+
+    body {
+        background: radial-gradient(1200px 600px at top, #0f1b33, #050b18);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+    .card {
+        background: linear-gradient(145deg, #0d1a2f, #0a1426);
+        border: 1px solid rgba(255,255,255,0.06);
+    }
+
+    .card:hover {
+        transform: translateY(-6px);
+        box-shadow: 0 20px 40px rgba(0,0,0,0.6);
+    }
+</style>
+
+</head>
+
+<body class="text-white font-sans min-h-screen pb-20">
+
+
+<!-- HEADER -->
+<header class="flex items-center justify-between px-8 py-6 border-b border-white/5">
+    <div class="flex items-center gap-3">
+        <div class="w-10 h-10 flex items-center justify-center rounded-xl bg-blue-600">
+            <i class="fa-solid fa-toolbox"></i>
+        </div>
+        <div>
+            <h1 class="text-xl font-bold">GrandRP Outils</h1>
+            <p class="text-sm text-slate-400">Hub d’outils pour joueurs Grand RP</p>
+        </div>
+    </div>
+</header>
+
+<!-- INTRO -->
+<section class="px-8 py-10 max-w-6xl mx-auto">
+    <h2 class="text-3xl font-bold mb-3">Outils Grand RP</h2>
+    <p class="text-slate-400 max-w-3xl">
+        Ce site centralise plusieurs outils conçus pour faciliter le roleplay sur
+        <strong>Grand RP (RageMP)</strong> : événements, calculs et procédures RP,
+        le tout au même endroit.
+    </p>
+</section>
+
+<!-- TOOLS -->
+<section class="px-8 pb-16 max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+<!-- EVENTS -->
+<a href="https://www.apple.com"
+   target="_blank"
+   rel="noopener noreferrer"
+   class="card rounded-2xl p-6 transition-all cursor-pointer hover:ring-1 hover:ring-indigo-500/40 block">
+
+    <div class="w-12 h-12 rounded-xl bg-indigo-500 flex items-center justify-center mb-4">
+        <i class="fa-solid fa-calendar-days text-xl"></i>
+    </div>
+
+    <h3 class="text-xl font-semibold mb-2">Événements Grand RP</h3>
+
+    <p class="text-slate-400 text-sm mb-4">
+        Visualisez les événements disponibles sur Grand RP :
+        activités en cours, horaires et événements à venir.
+    </p>
+
+    <span class="text-blue-400 text-sm font-medium">
+        Ouvrir l’outil →
+    </span>
+</a>
+
+
+<!-- VEHICLE MODS -->
+<a href="https://www.apple.com"
+   target="_blank"
+   rel="noopener noreferrer"
+   class="card rounded-2xl p-6 transition-all cursor-pointer hover:ring-1 hover:ring-emerald-500/40 block">
+
+    <div class="w-12 h-12 rounded-xl bg-emerald-500 flex items-center justify-center mb-4">
+        <i class="fa-solid fa-car text-xl"></i>
+    </div>
+
+    <h3 class="text-xl font-semibold mb-2">Calculateur de véhicules</h3>
+
+    <p class="text-slate-400 text-sm mb-4">
+        Calculez instantanément le coût des modifications de véhicules
+        selon les règles et tarifs de Grand RP.
+    </p>
+
+    <span class="text-blue-400 text-sm font-medium">
+        Ouvrir l’outil →
+    </span>
+</a>
+
+
+
+   <!-- PENAL CODE -->
+<a href="https://www.apple.com"
+   target="_blank"
+   rel="noopener noreferrer"
+   class="card rounded-2xl p-6 transition-all cursor-pointer hover:ring-1 hover:ring-red-500/40 block">
+
+    <div class="w-12 h-12 rounded-xl bg-red-500 flex items-center justify-center mb-4">
+        <i class="fa-solid fa-scale-balanced text-xl"></i>
+    </div>
+
+    <h3 class="text-xl font-semibold mb-2">Code pénal simplifié</h3>
+
+    <p class="text-slate-400 text-sm mb-4">
+        Accédez au code pénal de Grand RP avec une présentation claire
+        pour faciliter les arrestations et procédures RP.
+    </p>
+
+    <span class="text-blue-400 text-sm font-medium">
+        Ouvrir l’outil →
+    </span>
+</a>
+
+<!-- FIXED FOOTER -->
+<footer class="fixed bottom-0 left-0 w-full bg-[#050b18]/90 backdrop-blur border-t border-white/5 py-3 text-center text-xs text-slate-400">
+    <p>
+        Fait par <strong>Jules Miton</strong> — Projet communautaire,
+        <span class="text-slate-500">non affilié à Grand RP</span>
+    </p>
+</footer>
+
+</body>
+</html>
